@@ -114,6 +114,8 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
+---
+
 ##🎯 Vision
 The long-term vision of ECGRiskNet-AI is to bridge the gap between high-performance deep learning and trustworthy medical AI by developing interpretable, reproducible, and clinically meaningful ECG analysis systems. The framework is intended to serve as a foundation for future research in explainable healthcare AI, intelligent cardiovascular diagnostics, and reliable clinical decision support.
 ---
