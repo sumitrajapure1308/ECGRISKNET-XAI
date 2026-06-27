@@ -109,18 +109,18 @@ The long-term vision of ECGRiskNet-AI is to bridge the gap between high-performa
 ---
 
 ## 🚧 Current Status
-**Active Research Project — Under continuous development and open for research collaboration.
+Active Research Project — Under continuous development and open for research collaboration.
 
 ---
 
 
 ## 🤝 Contributing
-**Contributions, suggestions, and research collaborations are welcome! Feel free to open an issue or submit a pull request.
+Contributions, suggestions, and research collaborations are welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
 ## 📬 Contact
-**For questions, collaboration inquiries, or feedback, please open an issue on this repository
+For questions, collaboration inquiries, or feedback, please open an issue on this repository
 Email-sumitrajapure2006@gmail.com
 
 ---
