@@ -58,15 +58,15 @@ Rather than treating deep learning as a "black box," ECGRiskNet-AI emphasizes mo
 ## 🏗️ Architecture
 
 **Raw ECG Signal**
-↓
+»
 **Preprocessing** — Denoising, Normalization, Segmentation
-↓
+»
 **Feature Extractor** — CNN / SE Blocks / Transformer Attention
-↓
+»
 **Classification** — Cardiac Risk / Arrhythmia Prediction
-↓
+»
 **Explainability** — Grad-CAM, SHAP, LIME, Integrated Gradients
-↓
+»
 **Interpretable Risk Prediction + Visual Explanation**
 
 ---
