@@ -4,17 +4,12 @@
 
 
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.11.0%2B-blue.svg)
 
 
 
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=pytorch&logoColor=white)
-
-
-
-
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
 
