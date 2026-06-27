@@ -2,31 +2,31 @@
 
 ### An Explainable Multi-Dataset Deep Learning Framework for Intelligent ECG Risk Assessment
 
-[
+
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
 
-](https://www.python.org/)
-[
+
+
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=pytorch&logoColor=white)
 
-](https://pytorch.org/)
-[
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-](LICENSE)
-[
+
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
+
 
 ![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen.svg)
 
-]()
-[
 
-![Open for Collaboration](https://img.shields.io/badge/Open%20for-Collaboration-orange.svg)
 
-]()
+
+![Collaboration](https://img.shields.io/badge/Open%20for-Collaboration-orange.svg)
+
+
 
 ---
 
@@ -62,6 +62,18 @@ Rather than treating deep learning as a "black box," ECGRiskNet-AI emphasizes mo
 
 ## 🏗️ Architecture
 
+**Raw ECG Signal**
+↓
+**Preprocessing** — Denoising, Normalization, Segmentation
+↓
+**Feature Extractor** — CNN / SE Blocks / Transformer Attention
+↓
+**Classification** — Cardiac Risk / Arrhythmia Prediction
+↓
+**Explainability** — Grad-CAM, SHAP, LIME, Integrated Gradients
+↓
+**Interpretable Risk Prediction + Visual Explanation**
+
 ---
 
 ## 📊 Datasets
@@ -73,7 +85,7 @@ Rather than treating deep learning as a "black box," ECGRiskNet-AI emphasizes mo
 | **CPSC2018** | China Physiological Signal Challenge dataset | [CPSC](http://2018.icbeb.org/Challenge.html) |
 | **INCART** | St. Petersburg INCART 12-lead Arrhythmia Database | [PhysioNet](https://physionet.org/content/incartdb/) |
 
-> ⚠️ Datasets are **not included** in this repository due to size and licensing. Please download them from their respective sources and place them in the `data/` directory as described in [Setup](#-installation).
+> ⚠️ Datasets are **not included** in this repository due to size and licensing. Please download them from their respective sources and place them in the `data/` directory as described in the Installation section below.
 
 ---
 
@@ -93,18 +105,42 @@ Rather than treating deep learning as a "black box," ECGRiskNet-AI emphasizes mo
 
 ## 📁 Project Structure
 
+ECGRiskNet-AI/
+├── data/                  Raw and processed ECG datasets (not tracked)
+├── notebooks/             Jupyter notebooks (NB1–NB10 pipeline)
+├── src/
+│   ├── preprocessing/     Signal denoising, normalization, segmentation
+│   ├── models/            Model architectures (CNN, SE, Attention, Transformer)
+│   ├── explainability/    Grad-CAM, SHAP, LIME, Integrated Gradients
+│   ├── training/          Training and evaluation loops
+│   └── utils/             Helper functions and configs
+├── results/               Figures, metrics, and evaluation outputs
+├── requirements.txt
+├── LICENSE
+└── README.md
+
 ---
 
 ## ⚙️ Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/<your-username>/ECGRiskNet-AI.git
+git clone https://github.com/sumitrajapure1308/ECGRiskNet-AI.git
 cd ECGRiskNet-AI
 
-# Create a virtual environment
 python -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
+source venv/bin/activate
 
-# Install dependencies
 pip install -r requirements.txt
+
+🎯 Vision
+The long-term vision of ECGRiskNet-AI is to bridge the gap between high-performance deep learning and trustworthy medical AI by developing interpretable, reproducible, and clinically meaningful ECG analysis systems. The framework is intended to serve as a foundation for future research in explainable healthcare AI, intelligent cardiovascular diagnostics, and reliable clinical decision support
+
+🚧 Current Status
+Active Research Project — Under continuous development and open for research collaboration.
+
+🤝 Contributing
+Contributions, suggestions, and research collaborations are welcome! Feel free to open an issue or submit a pull request
+
+📬 Contact
+For questions, collaboration inquiries, or feedback, please open an issue on this repository
+Email-sumitrajapure2006@gmail.com
