@@ -103,33 +103,24 @@ Rather than treating deep learning as a "black box," ECGRiskNet-AI emphasizes mo
 
 ---
 
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/sumitrajapure1308/ECGRiskNet-AI.git
-cd ECGRiskNet-AI
-
-python -m venv venv
-source venv/bin/activate
-
-pip install -r requirements.txt
-
----
-
-##🎯 Vision
+## 🎯 Vision
 The long-term vision of ECGRiskNet-AI is to bridge the gap between high-performance deep learning and trustworthy medical AI by developing interpretable, reproducible, and clinically meaningful ECG analysis systems. The framework is intended to serve as a foundation for future research in explainable healthcare AI, intelligent cardiovascular diagnostics, and reliable clinical decision support.
+
 ---
 
-##🚧 Current Status
+## 🚧 Current Status
 **Active Research Project — Under continuous development and open for research collaboration.
+
 ---
 
 
-##🤝 Contributing
+## 🤝 Contributing
 **Contributions, suggestions, and research collaborations are welcome! Feel free to open an issue or submit a pull request.
+
 ---
 
-##📬 Contact
+## 📬 Contact
 **For questions, collaboration inquiries, or feedback, please open an issue on this repository
 Email-sumitrajapure2006@gmail.com
+
 ---
